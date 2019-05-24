@@ -1,0 +1,29 @@
+.top-header {
+    background-color: red;
+    height: 50px;
+    padding: 5px 10px 15px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+  }
+
+
+  .body .body__left {
+    background-color: skyblue;
+    color: white;
+    padding: 50px;
+    width: 60%;
+    height: 1500px;
+    float: left;
+    font-size: 35px;  
+  }
+
+
+  .body .body__right {
+    background-color: yellowgreen;
+    width: 30%;
+    height: 1500px;
+    float: right;
+    border: 5px solid gray;
+  }
