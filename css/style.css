@@ -10,13 +10,13 @@
     position: fixed;
     width: 1920px;
     z-index: 1;
-    top:o;
+    top:0;
   }
   
   .body {
     height: 1450px;
     position: relative;
-    top: 50px;
+    top: 42px;
   }
 
   .body .body__left {
