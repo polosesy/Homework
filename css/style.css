@@ -1,46 +1,61 @@
-.top-header {
+.wrap {
+  width: 1920px;
+  height: 1500px;
+  margin: 0 auto;
+}
+
+.header {
     background-color: red;
     height: 50px;
-    padding: 5px 10px 15px 10px;
     position: fixed;
-    width: 100%;
-    top: 0;
+    width: 1920px;
     z-index: 1;
+    top:o;
   }
-
+  
+  .body {
+    height: 1450px;
+    position: relative;
+    top: 50px;
+  }
 
   .body .body__left {
     background-color: skyblue;
     color: white;
     padding: 50px;
-    width: 60%;
-    height: 1500px;
+    width: 1200px;
+    height: 1300px;
     float: left;
     font-size: 35px;  
-    position: relative;
-  }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 0.7;
 
+  }
 
   .body .body__right {
     background-color: yellowgreen;
-    width: 600px;
-    height: 1500px;
-    float: right;
+    margin: auto;
+    padding: 20px;
+    width: 545px;
+    height: 1350px;
+    float: left;
     border: 5px solid gray;
-    z-index: 0;
+    z-index: 2;
+    display: flex;
+    flex: 0.3;
   }
 
-
   .square {
-    width: 90px;
+    width: 120px;
     height: 60px;
     background-color: #ffe94a;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 450px;
-    top: 45px;
-    font-size: 20px;
-    z-index: 2;
+    right: 530px;
+    top: 20px;
+    z-index: 3;
   }
